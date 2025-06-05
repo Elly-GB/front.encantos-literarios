@@ -50,10 +50,13 @@ html {
   scroll-behavior: smooth;
 }
 
-h3 {
-  margin: 50px;
-  font: var(--title-sm);
+body {
+  background-color: var(--shape-background);
+  background-image: url(/assets/bg-img-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 /* MEDIA QUERIE -- COMPUTER --------------------- */
 
@@ -67,5 +70,12 @@ h3 {
     --body-md: 400 1rem/1.4rem var(--ff);
     --button: 700 0.875rem var(--ff);
 
+  }
+
+  body {
+    background-color: var(--shape-background);
+    background-image: url(/assets/bg-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
