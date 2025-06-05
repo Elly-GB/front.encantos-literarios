@@ -38,11 +38,11 @@
   /* font base */
   --ff: "Raleway", sans-serif;
   /* font types */
-  --title-lg: 700 3rem var(--ff);
-  --title-sm: 700 2rem var(--ff);
-  --subtitle: 700 2rem/4rem var(--ff);
-  --body-lg: 400 1.25rem/1.75rem var(--ff);
-  --body-md: 400 1rem/1.4rem var(--ff);
+  --title-lg: 700 1.75rem var(--ff);
+  --title-sm: 700 1.5rem var(--ff);
+  --subtitle: 500 1rem/1.4rem var(--ff);
+  --body-lg: 400 0.875rem/1.225rem var(--ff);
+  --body-md: 400 0.875rem/1.225rem var(--ff);
   --button: 700 0.875rem var(--ff);
 }
 
@@ -55,4 +55,17 @@ h3 {
   font: var(--title-sm);
 }
 
-/* MEDIA QUERIE -- COMPUTER */
+/* MEDIA QUERIE -- COMPUTER --------------------- */
+
+@media (width >= 80em) {
+  :root {
+    /* font types */
+    --title-lg: 700 3rem var(--ff);
+    --title-sm: 700 2rem var(--ff);
+    --subtitle: 700 2rem/4rem var(--ff);
+    --body-lg: 400 1.25rem/1.75rem var(--ff);
+    --body-md: 400 1rem/1.4rem var(--ff);
+    --button: 700 0.875rem var(--ff);
+
+  }
+}
