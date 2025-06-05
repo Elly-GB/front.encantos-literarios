@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+:root {
+  /* colors shape */
+  --shape-stroke: #002347;
+  --shape-hover: #001933;
+  --shape-base: #000f1f;
+  --shape-background: #00050a;
+
+  /* colors text */
+  --text-title: #f8fbfb;
+  --text-body: #e2e7e9;
+  --text-label: #bac6c9;
+
+  /* colors blue */
+  --blue-light: #73b6d2;
+  --blue-base: #358bb9;
+  --blue-mid: #2374a4;
+  --blue-dark: #144a72;
+  --blue-low: #08233c;
+
+  /* colors pink */
+  --pink-light: #c59dd2;
+  --pink-base: #9547a5;
+  --pink-dark: #7d298a;
+  --pink-low: #3f0f41;
+
+  /* font base */
+  --ff: "Raleway", sans-serif;
+  /* font types */
+  --title-lg: 700 3rem var(--ff);
+  --title-sm: 700 2rem var(--ff);
+  --subtitle: 700 2rem/4rem var(--ff);
+  --body-lg: 400 1.25rem/1.75rem var(--ff);
+  --body-md: 400 1rem/1.4rem var(--ff);
+  --button: 700 0.875rem var(--ff);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h3 {
+  margin: 50px;
+  font: var(--title-sm);
+}
+
+/* MEDIA QUERIE -- COMPUTER */
