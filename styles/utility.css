@@ -4,8 +4,60 @@
   display: none;
 }
 
+.mobile-only {
+  display: initial;
+}
+
+/* se algum dia quiser tentar... */
+/* .button {
+  display: block;
+
+  position: relative;
+  text-align: center;
+  padding: 12px 20px;
+
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: var(--pink-dark);
+
+  font: var(--button);
+  color: var(--text-title);
+
+  cursor: pointer;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+    border-radius: inherit;
+
+    background-color: var(--pink-base);
+
+    z-index: -1;
+    transition: transform 400ms ease;
+
+    width: 110%;
+    height: 0;
+
+    &:hover {
+      &::before{
+        height: 350%;
+      }
+    }
+  }
+} */
+
+
 @media (width >= 80em) {
+
   .desktop-only {
     display: initial;
+  }
+
+  .mobile-only {
+    display: none;
   }
 }
