@@ -51,10 +51,14 @@ html {
 }
 
 body {
+  max-width: 430px;
+  max-height: 932px;
+
   background-color: var(--shape-background);
   background-image: url(/assets/bg-img-mobile.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  
 }
 
 
