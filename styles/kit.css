@@ -1,0 +1,36 @@
+
+#kit {
+  #writeone {
+    margin-top: 130px;
+    margin-bottom: 8px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    & img {
+      width: 45px;
+      height: 45px;
+    }
+
+    & h2 {
+      font: var(--title-sm);
+      color: var(--text-body);
+    }
+  }
+
+  #writetwo {
+    margin-bottom: 64px;
+
+    & p {
+      justify-content: center;
+      text-align: center;
+
+      font: var(--body-lg);
+      color: var(--text-body);
+
+    }
+  }
+}
