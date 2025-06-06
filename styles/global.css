@@ -40,7 +40,7 @@
   /* font types */
   --title-lg: 700 1.75rem var(--ff);
   --title-sm: 700 1.5rem var(--ff);
-  --subtitle: 500 1rem/1.4rem var(--ff);
+  --subtitle: 700 1rem/1.4rem var(--ff);
   --body-lg: 400 0.875rem/1.225rem var(--ff);
   --body-md: 400 0.875rem/1.225rem var(--ff);
   --button: 700 0.875rem var(--ff);
