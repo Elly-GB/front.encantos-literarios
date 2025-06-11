@@ -23,8 +23,6 @@
   }
 
   #writetwo {
-    margin-bottom: 64px;
-
     & p {
       justify-content: center;
       text-align: center;
