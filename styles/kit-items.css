@@ -19,6 +19,8 @@
 
       box-shadow: 0px 0px 200px var(--pink-dark);
       transition: 0.5s;
+
+      z-index: -3;
     }
 
     & img.purple {
