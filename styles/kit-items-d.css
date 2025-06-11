@@ -1,0 +1,172 @@
+
+@media (width >= 80em) {
+  #kit-items {
+    margin-top: 88px;
+    margin-bottom: 278px;
+
+    #things {
+
+      width: 1440px;
+      height: 920px;
+      
+      .shine {
+
+        top: 12vh;
+        left: 17vh;
+
+        width: 120px;
+        height: 145px;
+
+        box-shadow: 0px 0px 200px var(--pink-dark);
+      }
+
+      & img.purple {
+        margin-top: 134px;
+
+        position: absolute;
+        left: 60vh;
+
+        width: 467px;
+        height: 617px;
+      }
+
+      & img.mark1 {
+        opacity: 100%;
+
+        left: 92vh;
+        top: 19vh;
+
+        width: auto;
+        height: auto;
+
+      }
+
+      & img.mark2 {
+        opacity: 100%;
+
+        left: 92vh;
+        top: 19vh;
+
+        width: auto;
+        height: auto;
+
+      }
+
+      & img.pin {
+        opacity: 100%;
+
+        left: 65vh;
+        top: 65vh;
+
+        width: 222px;
+        height: 254px;
+      }
+
+      & img.arrow1 {
+        opacity: 0;
+
+        left: 18vh;
+        top: 10vh;
+      }
+
+      & img.arrow2 {
+        opacity: 0;
+
+        left: 20vh;
+        top: 20vh;
+      }
+
+      & img.arrow3 {
+        opacity: 0;
+
+        left: 20vh;
+        top: 15vh;
+      }
+
+      & p {
+        opacity: 0;
+
+        font: 400 10px var(--ff);
+        color: var(--text-body);
+      }
+
+      & p.write1{
+        top: 12vh;
+        left: 18vh;
+      }
+
+      & p.write2 {
+        top: 26vh;
+        left: 20vh;
+      }
+
+      & p.write3 {
+        top: 30vh;
+        left: 17vh;
+      }
+      
+    }
+  }
+
+  /* --------- HOVER -------- */
+
+  #kit-items:hover {
+    & #things {
+
+      .shine {
+        box-shadow: 0px 0px 200px #da69f1;
+      }
+
+      & img.mark1 {
+        left: 127vh;
+        top: 19vh;
+      }
+
+      & img.mark2 {
+        left: 112vh;
+        top: 5vh;
+      }
+
+      & img.pin {
+        left: 42vh;
+        top: 75.5vh;
+      }
+
+      & img.arrow1 {
+        opacity: 100%;
+        top: 5.5vh;
+        left: 7vh;
+      }
+
+      & img.arrow2 {
+        opacity: 100%;
+        top: 24vh;
+        left: 5vh;
+      }
+
+      & img.arrow3 {
+        opacity: 100%;
+        top: 31vh;
+        left: 36vh;
+      }
+
+      & p.write1 {
+        opacity: 100%;
+        top: 3vh;
+        left: 3vh;
+      }
+
+      & p.write2 {
+        opacity: 100%;
+        top: 21.5vh;
+        left: 3vh;
+      }
+
+      & p.write3 {
+        opacity: 100%;
+        top: 39vh;
+        left: 29.5vh;
+      }
+    }
+  }
+}
