@@ -38,12 +38,15 @@
   /* font base */
   --ff: "Raleway", sans-serif;
   /* font types */
+  --price: 700 40px var(--ff);
   --title-lg: 700 1.75rem var(--ff);
   --title-sm: 700 1.5rem var(--ff);
   --subtitle: 700 1rem/1.4rem var(--ff);
+  --sub: 700 1rem var(--ff);
+  --button: 700 0.875rem var(--ff);
   --body-lg: 400 0.875rem/1.225rem var(--ff);
   --body-md: 400 0.875rem/1.225rem var(--ff);
-  --button: 700 0.875rem var(--ff);
+  --body-xs: 400 0.75rem/1.05rem var(--ff);
 }
 
 html {
