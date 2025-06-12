@@ -1,0 +1,16 @@
+#pricing {
+  margin-inline: 52px;
+  margin-block: 104px;
+
+  #pre {
+    margin-bottom: 48px;
+    justify-content: center;
+
+    & h2 {
+      text-align: center;
+
+      font: var(--title-sm);
+      color: var(--text-body);
+    }
+  }
+}
