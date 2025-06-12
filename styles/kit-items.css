@@ -11,7 +11,7 @@
     .shine {
       position: absolute;
 
-      top: 12vh;
+      top: 10vh;
       left: 17vh;
 
       width: 120px;
@@ -24,8 +24,6 @@
     }
 
     & img.purple {
-     
-
       margin-top: 50px;
 
       position: absolute;
