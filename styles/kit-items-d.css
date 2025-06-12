@@ -11,19 +11,18 @@
       
       .shine {
 
-        top: 12vh;
-        left: 17vh;
+        top: 25vh;
+        left: 67vh;
 
-        width: 120px;
-        height: 145px;
+        width: 400px;
+        height: 480px;
 
-        box-shadow: 0px 0px 200px var(--pink-dark);
+        box-shadow: 0px 0px 1500px var(--pink-dark);
       }
 
       & img.purple {
         margin-top: 134px;
 
-        position: absolute;
         left: 60vh;
 
         width: 467px;
@@ -31,9 +30,7 @@
       }
 
       & img.mark1 {
-        opacity: 100%;
-
-        left: 92vh;
+        left: 89vh;
         top: 19vh;
 
         width: auto;
@@ -42,67 +39,63 @@
       }
 
       & img.mark2 {
-        opacity: 100%;
-
-        left: 92vh;
+        left: 89vh;
         top: 19vh;
 
         width: auto;
         height: auto;
-
       }
 
       & img.pin {
-        opacity: 100%;
-
         left: 65vh;
-        top: 65vh;
+        top: 60vh;
 
         width: 222px;
         height: 254px;
       }
 
       & img.arrow1 {
-        opacity: 0;
+        width: 174.5px;
+        height: 30px;
 
-        left: 18vh;
-        top: 10vh;
+        left: 68vh;
+        top: 40vh;
       }
 
       & img.arrow2 {
-        opacity: 0;
+        width: 104.852px;
+        height: 127px;
 
-        left: 20vh;
-        top: 20vh;
+        left: 68vh;
+        top: 55vh;
       }
 
       & img.arrow3 {
-        opacity: 0;
+        width: 145.453px;
+        height: 151.5px;
 
-        left: 20vh;
-        top: 15vh;
+        left: 90vh;
+        top: 65vh;
       }
 
       & p {
-        opacity: 0;
-
-        font: 400 10px var(--ff);
+        font: 400 16px/22.4px var(--ff);
         color: var(--text-body);
       }
 
       & p.write1{
-        top: 12vh;
-        left: 18vh;
+        top: 40vh;
+        left: 70vh;
       }
 
       & p.write2 {
-        top: 26vh;
-        left: 20vh;
+        top: 50vh;
+        left: 70vh;
       }
 
       & p.write3 {
-        top: 30vh;
-        left: 17vh;
+        left: 85vh;
+        top: 85vh;
       }
       
     }
@@ -114,7 +107,7 @@
     & #things {
 
       .shine {
-        box-shadow: 0px 0px 200px #da69f1;
+        box-shadow: 0px 0px 1500px #da69f1a5;
       }
 
       & img.mark1 {
@@ -133,39 +126,35 @@
       }
 
       & img.arrow1 {
-        opacity: 100%;
-        top: 5.5vh;
-        left: 7vh;
+        left: 44vh;
+        top: 15vh;
       }
 
       & img.arrow2 {
-        opacity: 100%;
-        top: 24vh;
-        left: 5vh;
+        left: 36vh;
+        top: 65vh;
       }
 
       & img.arrow3 {
-        opacity: 100%;
-        top: 31vh;
-        left: 36vh;
+
+        left: 126vh;
+        top: 88vh;
       }
 
       & p.write1 {
-        opacity: 100%;
-        top: 3vh;
-        left: 3vh;
+        top: 10vh;
+        left: 36vh;
       }
 
       & p.write2 {
-        opacity: 100%;
-        top: 21.5vh;
-        left: 3vh;
+        top: 60vh;
+        left: 34vh;
       }
 
       & p.write3 {
-        opacity: 100%;
-        top: 39vh;
-        left: 29.5vh;
+
+        left: 116vh;
+        top: 109vh;
       }
     }
   }
