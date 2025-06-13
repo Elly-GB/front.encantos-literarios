@@ -1,0 +1,76 @@
+
+@media (width >= 80em) {
+
+  #pricing {
+    margin: 194px 195px 380px;
+
+    #cards {
+      position: relative;
+
+      width: 1050px;
+      height: 606px;
+
+      overflow-x: hidden;
+      gap: 0px;
+
+      padding-top: 56px;
+      padding-inline: 0px;
+
+      /* BLUE */
+      .cardBlue {
+        position: absolute;
+        z-index: -1;
+
+        min-width: 0%;
+
+        &:hover {
+
+        }
+      }
+  
+      /* PINK */
+      .cardPink {
+        min-width: 0%;
+
+        &:hover {
+        }
+      }
+
+      /*  */
+    }
+  }
+  
+  /* SEPARATED */
+
+  #card-one {
+    position: absolute;
+    z-index: -1;
+
+    & h4 {
+      margin-bottom: 85px;
+    }
+  
+    & button {
+      padding-inline: 53.5px;
+    }
+  }
+  
+  #card-three {
+    position: absolute;
+    z-index: -1;
+
+    & h4 {
+      margin-bottom: 27px;
+    }
+  
+    & button {
+      padding-inline: 59px;
+    }
+  }
+
+  #card-two {
+    position: absolute;
+    z-index: 1;
+  }
+
+}
