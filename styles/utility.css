@@ -4,9 +4,6 @@
   display: none;
 }
 
-.mobile-only {
-  display: initial;
-}
 
 /* se algum dia quiser tentar... */
 /* .button {
@@ -55,9 +52,5 @@
 
   .desktop-only {
     display: initial;
-  }
-
-  .mobile-only {
-    display: none;
   }
 }
