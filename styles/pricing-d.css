@@ -1,6 +1,4 @@
-
 @media (width >= 80em) {
-
   #pre {
     & h2 {
       margin-bottom: 56px;
@@ -16,7 +14,6 @@
     background-size: cover;
 
     #cards {
-
       position: relative;
       margin-top: 82px;
 
@@ -29,69 +26,176 @@
       padding-top: 82px;
       padding-inline: 0px;
 
+      #shine {
+        position: absolute;
+        z-index: -2;
+
+        top: 20vh;
+        left: 56vh;
+
+        width: 150px;
+        height: 300px;
+
+        box-shadow: 0px 0px 180px rgba(144, 107, 156, 0.665);
+      }
+
       /* BLUE */
       .cardBlue {
         min-width: 0%;
+        transition: 0.5s;
+
+        &:hover {
+          z-index: 3;
+          top: 17vh;
+
+          transition: 0.5s;
+
+          #b1-star, #s2-star {
+            transform: rotate(-15deg);
+          }
+
+          #s1-star, #b2-star {
+            transform: rotate(15deg);
+          }
+        }
+
+        /* STARS */
+        #stars-top {
+          position: absolute;
+
+          #b1-star {
+            position: absolute;
+
+            top: -2.5vh;
+            left: -4vh;
+
+            width: 26px;
+            height: 26px;
+
+            transition: 0.5s;
+          }
+
+          #s1-star {
+            position: absolute;
+
+            top: 2vh;
+            left: -5vh;
+
+            width: 13.055px;
+            height: 13.055px;
+
+            transition: 0.5s;
+          }
+
+          #b2-star {
+            position: absolute;
+
+            top: 50vh;
+            left: 37vh;
+
+            width: 23.222px;
+            height: 23.222px;
+
+            transition: 0.5s;
+          }
+
+          #s2-star {
+            position: absolute;
+
+            top: 53vh;
+            left: 34.5vh;
+
+            width: 11.25px;
+            height: 11.25px;
+
+            transition: 0.5s;
+          }
+
+        }
       }
-  
+
       /* PINK */
       .cardPink {
         min-width: 0%;
-      }
 
+        #bunny {
+          position: absolute;
+          z-index: 3;
+
+          top: -6.4vh;
+          left: 4vh;
+
+          width: 45.055px;
+          height: 49.926px;
+        }
+      }
     }
   }
-  
+
   /* SEPARATED */
 
   #card-one {
     position: absolute;
-    z-index: 1;
 
+    z-index: 1;
     left: 49vh;
 
     & h4 {
       margin-bottom: 85px;
     }
-  
+
     & button {
       padding-inline: 53.5px;
     }
-
-    
   }
-  
+
   #card-three {
     position: absolute;
-    z-index: 1;
 
+    z-index: 1;
     left: 49vh;
 
     & h4 {
       margin-bottom: 27px;
     }
-  
+
     & button {
       padding-inline: 59px;
     }
   }
 
-  /* central */
+  /* CENTER */
   #card-two {
     position: absolute;
     z-index: 2;
 
     left: 49vh;
-  }
 
+    transition: 0.5s;
+  }
 }
 
 /* --- HOVER --- */
 
-#cards:hover {
-  #card-one {
-    left: 20vh;
+#pricing:hover {
+  transition: 0.5s;
 
-    transform: rotate(-1deg);
+  #card-one {
+    transition: 0.5s;
+
+    left: 13.7vh;
+    top: 18vh;
+
+    transform: rotate(-8deg);
+    transition: 0.5s;
+  }
+
+  #card-three {
+    transition: 0.5s;
+
+    left: 84.5vh;
+    top: 18vh;
+
+    transform: rotate(8deg);
   }
 }
