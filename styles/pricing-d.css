@@ -1,9 +1,4 @@
 @media (width >= 80em) {
-  #pre {
-    & h2 {
-      margin-bottom: 56px;
-    }
-  }
 
   #pricing {
     margin: 194px 195px 308px;
@@ -13,9 +8,15 @@
     background-position: center;
     background-size: cover;
 
+    #pre {
+      & h2 {
+       
+      }
+    }
+
     #cards {
       position: relative;
-      margin-top: 82px;
+      margin-top: 138px;
 
       width: 1050px;
       height: 606px;
@@ -117,6 +118,7 @@
       /* PINK */
       .cardPink {
         min-width: 0%;
+        transition: 0.5s;
 
         #bunny {
           position: absolute;
@@ -197,5 +199,12 @@
     top: 18vh;
 
     transform: rotate(8deg);
+  }
+}
+
+#card-two:hover {
+  img#bunny {
+    box-shadow: 0px 0px 140px rgb(188, 119, 201);
+    background-color: rgba(187, 119, 201, 0.061);
   }
 }
