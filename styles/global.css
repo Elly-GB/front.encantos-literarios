@@ -2,12 +2,20 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  
 }
 
 * {
   margin: 0;
   padding: 0;
   font: inherit;
+}
+
+*::-webkit-scrollbar-thumb, *::-webkit-scrollbar {
+  background-color: #00050a;
+  border-radius: 20px;
+
+  width: 0px;
 }
 
 :root {
