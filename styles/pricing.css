@@ -92,6 +92,7 @@
         }
   
         & button {
+          cursor: pointer;
           margin-top: 12px;
   
           padding-block: 12px;
@@ -201,6 +202,7 @@
         }
     
         & button {
+            cursor: pointer;
             margin-top: 12px;
     
             padding-inline: 44.5px;
