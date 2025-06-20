@@ -8,12 +8,6 @@
     background-position: center;
     background-size: cover;
 
-    #pre {
-      & h2 {
-       
-      }
-    }
-
     #cards {
       position: relative;
       margin-top: 138px;
