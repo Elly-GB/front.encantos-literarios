@@ -1,0 +1,45 @@
+
+@media (width >= 80em) {
+
+  #footer {
+    display: flex;
+
+    justify-content: space-between;
+    background-image: url(../assets/footer/footer.png);
+
+  
+    /* LEFT */
+    & #left {
+      /* img */
+      & #logo-all {
+        margin: 170px auto 0px 160px;
+  
+        width: 264px;
+        height: 66.574px;
+      }
+  
+      & divisor {
+        margin: 12px auto 12px 160px;
+        width: 264px;
+      } 
+  
+      & #social-links {
+        margin-left: 160px;
+        margin-bottom: 115px;
+  
+        gap: 4.8px;
+      }
+    }
+    
+    /* RIGHT */
+    & #right {
+      margin: 178px 160px 85px auto;
+      gap: 56px;
+  
+      & ul li {
+        margin-bottom: 18px;
+      }
+    }
+  }
+}
+
