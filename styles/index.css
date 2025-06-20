@@ -5,7 +5,8 @@
 @import url(about.css);
 @import url(kit.css);
 @import url(kit-items.css);
-@import url(kit-items-d.css);
+@import url(kit-items-d.css) (width >= 80rem);
 @import url(pricing.css);
 @import url(pricing-d.css) (width >= 80rem);
 @import url(footer.css);
+@import url(footer-d.css) (width >= 80rem);
