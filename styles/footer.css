@@ -5,6 +5,89 @@
   background-size: cover;
   
   overflow: hidden;
+
+  /* LEFT */
+  & #left {
+    /* img */
+    & #logo-all {
+      display: flex;
+      margin: 98px auto 0px;
+
+      width: 158.621px;
+      height: 40px;
+    }
+
+    & divisor {
+      display: flex;
+      margin: 12px auto 12px;
+
+      width: 311px;
+      border: 1px solid var(--shape-stroke);
+    } 
+
+    & #social-links {
+      display: flex;
+      margin-inline: 32px;
+      margin-bottom: 40px;
+
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+
+      gap: 15px;
+
+      a {
+        display: flex;
+        cursor: pointer;
+
+        align-content: center;
+
+        padding: 8px;
+        transition: 0.5s;
+
+        & svg path {
+          fill: var(--blue-base);
+        }
+
+        &:hover {
+          background-color: var(--shape-stroke);
+          border-radius: 99999px;
+
+          & svg path {
+            fill: var(--text-body);
+          }
+        }
+      }
+
+    }
+  }
+
+  & #right {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0px 32px 26px;
+
+    & ul #span {
+      font: var(--sub);
+      color: var(--text-body);
+
+      margin-bottom: 20px;
+    }
+
+    & ul li {
+      font: 500 14px var(--ff);
+      color: var(--blue-light);
+
+      margin-bottom: 12px;
+      transition: 0.5s;
+
+      &:hover {
+        cursor: pointer;
+        color: var(--text-body);
+      }
+    }
+  }
 }
 
 @media (width >= 80em) {
