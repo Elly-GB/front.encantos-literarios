@@ -89,12 +89,3 @@
     }
   }
 }
-
-@media (width >= 80em) {
-
-  #footer {
-    background-image: url(../assets/footer/footer.png);
-    background-repeat: no-repeat;
-    background-size: cover
-  }
-}
