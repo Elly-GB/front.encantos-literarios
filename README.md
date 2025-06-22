@@ -1,4 +1,4 @@
-<h1 align="center"> Portfólio Dev - Made by: Gabrielly </h1>
+<h1 align="center"> Encantos Literários - Made by: Gabrielly </h1>
 
 <p align="center">
 Programa exclusivo, promovido pela Rocketseat com o propósito de treinar e ensinar habilidades em HTML, CSS e outras tecnologias.
@@ -8,7 +8,7 @@ Programa exclusivo, promovido pela Rocketseat com o propósito de treinar e ensi
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a hreft="#memo-licença">Agradecimento</a>
+  <a href="#-projeto">Agradecimento</a>
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ Desenvolvido com as seguintes tecnologias:
 
 ## 🎀 Projeto
 
-Um portfólio com informações do usuário, como suas eperiências e conhecimentos.
+Um site que busca incentivar o usuário a fazer parte do clube de assinatura Encantos Literários, podendo receber, todo mês, livros novos em sua residência. Observação: Produto Fictício. 
 
 ## :memo: Licença
 
@@ -39,6 +39,7 @@ Esse projeto está sob a licença MIT.
 
 
 ## 💗 Agradecimento
+
 Obrigada pela atenção ♥ <br>
 Espero que goste dos meus projetos e me apoie nessa jornada! beijinhos ~ <br>
 -- de Elly ✨ --
