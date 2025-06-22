@@ -2,8 +2,8 @@
 #kit {
 
   #writeone {
-    margin-top: 130px;
-    margin-bottom: 8px;
+    margin-top: 8.125rem;
+    margin-bottom: 0.5rem;
 
     display: flex;
 
@@ -12,8 +12,8 @@
     text-align: center;
 
     & img {
-      width: 45px;
-      height: 45px;
+      width: 2.8125rem;
+      height: 2.8125rem;
     }
 
     & h2 {

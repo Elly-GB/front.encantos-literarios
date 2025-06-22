@@ -1,32 +1,32 @@
 
 @media (width >= 80em) {
   #kit-items {
-    margin-top: 88px;
-    margin-bottom: 278px;
+    margin-top: 5.5rem;
+    margin-bottom: 17.375rem;
 
     #things {
 
-      width: 1440px;
-      height: 920px;
+      width: 90rem;
+      height: 57.5rem;
       
       .shine {
 
         top: 25vh;
         left: 67vh;
 
-        width: 400px;
-        height: 480px;
+        width: 25rem;
+        height: 30rem;
 
         box-shadow: 0px 0px 1500px var(--pink-dark);
       }
 
       & img.purple {
-        margin-top: 134px;
+        margin-top: 8.375rem;
 
         left: 60vh;
 
-        width: 467px;
-        height: 617px;
+        width: 29.1875rem;
+        height: 38.5625rem;
       }
 
       & img.mark1 {
@@ -50,36 +50,36 @@
         left: 65vh;
         top: 60vh;
 
-        width: 222px;
-        height: 254px;
+        width: 13.875rem;
+        height: 15.875rem;
       }
 
       & img.arrow1 {
-        width: 174.5px;
-        height: 30px;
+        width: 10.9063rem;
+        height: 1.875rem;
 
         left: 68vh;
         top: 40vh;
       }
 
       & img.arrow2 {
-        width: 104.852px;
-        height: 127px;
+        width: 6.5533rem;
+        height: 7.9375rem;
 
         left: 68vh;
         top: 55vh;
       }
 
       & img.arrow3 {
-        width: 145.453px;
-        height: 151.5px;
+        width: 9.0908rem;
+        height: 9.4688rem;
 
         left: 90vh;
         top: 65vh;
       }
 
       & p {
-        font: 400 16px/22.4px var(--ff);
+        font: 400 1rem/1.4rem var(--ff);
         color: var(--text-body);
       }
 

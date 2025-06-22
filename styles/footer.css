@@ -11,30 +11,30 @@
     /* img */
     & #logo-all {
       display: flex;
-      margin: 98px auto 0px;
+      margin: 6.125rem auto 0rem;
 
-      width: 158.621px;
-      height: 40px;
+      width: 9.9138rem;
+      height: 2.5rem;
     }
 
     & divisor {
       display: flex;
-      margin: 12px auto 12px;
+      margin: 0.75rem auto 0.75rem;
 
-      width: 311px;
+      width: 19.4375rem;
       border: 1px solid var(--shape-stroke);
     } 
 
     & #social-links {
       display: flex;
-      margin-inline: 32px;
-      margin-bottom: 40px;
+      margin-inline: 2rem;
+      margin-bottom: 2.5rem;
 
       justify-content: center;
       text-align: center;
       align-items: center;
 
-      gap: 15px;
+      gap: 0.9375rem;
 
       a {
         display: flex;
@@ -42,7 +42,7 @@
 
         align-content: center;
 
-        padding: 8px;
+        padding: 0.5rem;
         transition: 0.5s;
 
         & svg path {
@@ -66,20 +66,20 @@
     display: flex;
     justify-content: space-between;
 
-    margin: 0px 32px 26px;
+    margin: 0px 2rem 1.625rem;
 
     & ul #span {
       font: var(--sub);
       color: var(--text-body);
 
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
     }
 
     & ul li {
-      font: 500 14px var(--ff);
+      font: 500 0.875rem var(--ff);
       color: var(--blue-light);
 
-      margin-bottom: 12px;
+      margin-bottom: 0.75rem;
       transition: 0.5s;
 
       &:hover {

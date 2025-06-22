@@ -4,6 +4,7 @@
   display: none;
 }
 
+/* Algo só aparece para o mobile */
 .mobile-only {
   display: initial;
 }

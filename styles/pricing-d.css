@@ -1,7 +1,7 @@
 @media (width >= 80em) {
 
   #pricing {
-    margin: 194px 195px 308px;
+    margin: 12.125rem 12.1875rem 19.25rem;
     background-image: url(../assets/pricing/bg-price.png);
     background-repeat: no-repeat;
 
@@ -10,16 +10,16 @@
 
     #cards {
       position: relative;
-      margin-top: 138px;
+      margin-top: 8.625rem;
 
-      width: 1050px;
-      height: 606px;
+      width: 65.625rem;
+      height: 37.875rem;
 
       overflow-x: hidden;
-      gap: 0px;
+      gap: 0rem;
 
-      padding-top: 82px;
-      padding-inline: 0px;
+      padding-top: 5.125rem;
+      padding-inline: 0rem;
 
       #shine {
         position: absolute;
@@ -28,8 +28,8 @@
         top: 20vh;
         left: 56vh;
 
-        width: 150px;
-        height: 300px;
+        width: 9.375rem;
+        height: 18.75rem;
 
         box-shadow: 0px 0px 180px rgba(144, 107, 156, 0.665);
       }
@@ -121,8 +121,8 @@
           top: -6.4vh;
           left: 4vh;
 
-          width: 45.055px;
-          height: 49.926px;
+          width: 2.8159rem;
+          height: 3.1204rem;
         }
       }
     }
@@ -137,11 +137,11 @@
     left: 49vh;
 
     & h4 {
-      margin-bottom: 85px;
+      margin-bottom: 5.3125rem;
     }
 
     & button {
-      padding-inline: 53.5px;
+      padding-inline: 3.3438rem;
     }
   }
 
@@ -152,11 +152,11 @@
     left: 49vh;
 
     & h4 {
-      margin-bottom: 27px;
+      margin-bottom: 1.6875rem;
     }
 
     & button {
-      padding-inline: 59px;
+      padding-inline: 3.6875rem;
     }
   }
 

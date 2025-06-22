@@ -61,7 +61,7 @@
 
 .ball {
   opacity: 0%;
-  margin-left: 248px;
+  margin-left: 15.5rem;
 
   transition: 0.2s;
 
@@ -133,8 +133,8 @@
 
   #about {
     img {
-      width: 90px;
-      height: 90px;
+      width: 5.625rem;
+      height: 5.625rem;
 
       &:hover {
         transition-delay: 0s;
@@ -145,21 +145,21 @@
     }
 
     & p {
-      margin-inline: 150px;
-      font: 500 32px/64px var(--ff);
+      margin-inline: 9.375rem;
+      font: 500 2rem/4rem var(--ff);
     }
   }
 
   .book {
-    margin-left: 660px;
+    margin-left: 41.25rem;
   }
 
   .point {
-    margin-left: 177px;
+    margin-left: 11.0625rem;
   }
 
   .ball {
-    margin-left: 1000px;
+    margin-left: 62.5rem;
   }
 
 
